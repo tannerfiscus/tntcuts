@@ -1,0 +1,19 @@
+.about-facts {
+    display: flex;
+}
+
+.about-fact + .about-fact {
+    margin-left: 24px;
+}
+
+.about-fact {
+    border: 1px solid #CCCCCB;
+    border-radius: 4px;
+    flex: 1 auto;
+    padding: 24px 12px;
+    text-align: center;
+}
+
+.about-fact__highlight {
+    font-size: 64px;
+}

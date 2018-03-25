@@ -1,0 +1,9 @@
+.page-not-found {
+    padding: 200px 0 0;
+    text-align: center;
+}
+
+.page-not-found .fa {
+    font-size: 60px;
+    margin: 0 0 24px;
+}

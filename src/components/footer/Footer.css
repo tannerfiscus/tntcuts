@@ -1,0 +1,35 @@
+.footer {
+    border-top: 1px solid #CCCCCB;
+}
+
+.footer .content-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.footer-copyright {
+    flex: 1 auto;
+    padding: 0 12px 0 0;
+}
+
+.footer-cred-link {
+    align-items: center;
+    display: flex;
+}
+
+.footer-cred-link__logo {
+    height: 32px;
+    width: 30px;
+}
+
+.footer-cred-link__description {
+    padding: 0 8px 0 0;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s linear;
+}
+
+.footer-cred-link:hover .footer-cred-link__description {
+    opacity: 1;
+    transform: translateY(0);
+}

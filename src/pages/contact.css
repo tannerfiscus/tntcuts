@@ -1,0 +1,67 @@
+.contact-confirmation {
+    padding: 200px 0 0;
+    text-align: center;
+}
+
+.contact-confirmation .fa {
+    font-size: 60px;
+    margin: 0 0 24px;
+}
+
+.contact-content {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.contact-map {
+    display: block;
+    height: 500px;
+    padding: 92px 0 0;
+    width: 100%;
+}
+
+.contact-intro {
+    display: flex;
+    margin: 0 32px 0 0;
+}
+
+.contact-intro li {
+    border: 1px solid #CCCCCB;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    flex: 1 auto;
+    flex-wrap: wrap;
+    font-size: 24px;
+    padding: 18px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.contact-intro li + li {
+    margin: 0 0 0 32px;
+}
+
+.contact-intro .fa {
+    color: #87807c;
+    display: block;
+    font-size: 64px;
+    flex: 1 auto;
+    padding: 0 0 12px;
+    width: 100%;
+}
+
+.contact-intro .fa-phone {
+    font-size: 52px;
+}
+
+.contact-intro a, .contact-intro a:visited, .contact-intro a:hover {
+    color: #333331;
+    text-decoration: none;
+}
+
+.contact-intro__city-state {
+    display: inline-block;
+    white-space: nowrap;
+}

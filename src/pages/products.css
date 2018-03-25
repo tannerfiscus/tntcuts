@@ -1,0 +1,21 @@
+.products {
+    padding: 24px 0;
+}
+
+.products__highlight {
+    margin: 60px 0 0;
+    text-align: center;
+}
+
+.products__highlight h2 {
+    margin: 0 0 -18px;
+}
+
+.product-logo {
+    display: inline-block;
+    max-width: 250px;
+}
+
+.product-logo + .product-logo {
+    margin: 0 0 0 48px;
+}

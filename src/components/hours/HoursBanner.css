@@ -1,0 +1,25 @@
+.hours-banner-wrapper {
+    background: #f1f1e9;
+}
+.hours-banner {
+    align-items: center;
+    display: flex;
+}
+
+.hours-banner__message {
+    flex: 1 auto;
+    padding: 0 24px 0 0;
+}
+
+.hours-banner__message p {
+    font-size: 17px;
+    max-width: 800px;
+}
+
+.hours-banner__timesheet {
+    flex: 0 0 230px;
+    margin: -80px 0 0;
+    position: relative;
+    width: 230px;
+    z-index: 1;
+}
