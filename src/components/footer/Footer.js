@@ -13,7 +13,9 @@ const Footer = () => (
                 &nbsp;
                 TNT Cuts.
                 &nbsp;&nbsp;
-                All Rights Reserved.
+                <span className='footer-copyright__rights'>
+                    All Rights Reserved.
+                </span>
             </div>
             
             <div className='footer-cred'>

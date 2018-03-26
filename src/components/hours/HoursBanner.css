@@ -3,6 +3,7 @@
 }
 
 .hours-banner {
+    padding: 24px 0;
     text-align: center;
 }
 
@@ -22,6 +23,7 @@
     .hours-banner {
         align-items: center;
         display: flex;
+        padding: 0;
         text-align: left;
     }
     
