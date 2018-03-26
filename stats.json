@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0183cf33b74c0ee097e5.js",
-      "component---src-pages-index-js-0183cf33b74c0ee097e5.js.map"
+      "component---src-pages-index-js-0bd65fe56710a85f5542.js",
+      "component---src-pages-index-js-0bd65fe56710a85f5542.js.map"
     ],
     "path---products": [
       "path---products-a0e39f21c11f6a62c5ab.js",
@@ -13,25 +13,25 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-cc1f975038dd498e2ee2.js",
-      "component---src-pages-contact-js-cc1f975038dd498e2ee2.js.map"
+      "component---src-pages-contact-js-09e735be09b9d8173483.js",
+      "component---src-pages-contact-js-09e735be09b9d8173483.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-61dcd4252d0c43b9f7bb.js",
-      "component---src-layouts-index-js-61dcd4252d0c43b9f7bb.js.map"
+      "component---src-layouts-index-js-7553bc1827bbc55f2c34.js",
+      "component---src-layouts-index-js-7553bc1827bbc55f2c34.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-d5c1dc1ddc4a7a1fe9d1.js",
-      "component---src-pages-404-js-d5c1dc1ddc4a7a1fe9d1.js.map"
+      "component---src-pages-404-js-a7f18e1c5d7958b2957e.js",
+      "component---src-pages-404-js-a7f18e1c5d7958b2957e.js.map"
     ],
     "commons": [
-      "commons-db3266cf235f2862fc06.js",
+      "commons-a81426054684724a3ab1.js",
       "build-js-styles.css",
-      "commons-db3266cf235f2862fc06.js.map",
+      "commons-a81426054684724a3ab1.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -43,8 +43,8 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-contact-confirmation-js": [
-      "component---src-pages-contact-confirmation-js-4a691e13fe79ee0cbc4e.js",
-      "component---src-pages-contact-confirmation-js-4a691e13fe79ee0cbc4e.js.map"
+      "component---src-pages-contact-confirmation-js-b3bc9f1b1b135c2a8193.js",
+      "component---src-pages-contact-confirmation-js-b3bc9f1b1b135c2a8193.js.map"
     ],
     "path---contact-confirmation": [
       "path---contact-confirmation-a0e39f21c11f6a62c5ab.js",
@@ -57,16 +57,16 @@
       "build-js-styles.css.map"
     ],
     "component---src-pages-products-js": [
-      "component---src-pages-products-js-2467d386a0b79f7259b8.js",
-      "component---src-pages-products-js-2467d386a0b79f7259b8.js.map"
+      "component---src-pages-products-js-50b8d7001df6a32f7c04.js",
+      "component---src-pages-products-js-50b8d7001df6a32f7c04.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-7a334b39b6a711c79fbf.js",
-      "component---src-pages-about-js-7a334b39b6a711c79fbf.js.map"
+      "component---src-pages-about-js-39716d893bf9e2d70ec0.js",
+      "component---src-pages-about-js-39716d893bf9e2d70ec0.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
