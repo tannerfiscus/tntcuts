@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 import Link from 'gatsby-link'
 
@@ -10,6 +11,8 @@ import './about.css';
 
 const About = () => (
     <main>
+        <Helmet title='About Us | TNT Cuts' />
+
         <Banner
             image={bannerImage}
             title='About Us'

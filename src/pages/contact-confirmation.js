@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 
 import ContentWrapper from '../components/content/ContentWrapper'
@@ -5,6 +6,8 @@ import './contact.css';
 
 const ContactConfirmation = () => (
     <main>
+        <Helmet title='Message Received | TNT Cuts' />
+
         <ContentWrapper>
             <div className='contact-confirmation'>
                 <i className='fa fa-check-circle' />

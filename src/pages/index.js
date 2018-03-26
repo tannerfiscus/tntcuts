@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 import Link from 'gatsby-link'
 
@@ -9,7 +10,9 @@ import HoursBanner from '../components/hours/HoursBanner'
 import './index.css';
 
 const Home = () => (
-    <main>
+    <main>    
+        <Helmet title='TNT CUTS | Hair Salon in Kittanning, PA' />
+        
         <Banner
             image={bannerImage}
             title='<strong>Freshen up your look</strong> at TNT Cuts'

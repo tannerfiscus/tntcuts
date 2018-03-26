@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 
 import ContentWrapper from '../components/content/ContentWrapper'
@@ -5,6 +6,8 @@ import './404.css'
 
 const PageNotFound = () => (
     <main>
+        <Helmet title='Page Not Found | TNT Cuts' />
+        
         <ContentWrapper>
             <div className='page-not-found'>
                 <i className='fa fa-exclamation-circle' />

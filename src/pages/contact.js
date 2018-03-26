@@ -1,3 +1,4 @@
+import Helmet from 'react-helmet'
 import React from 'react'
 import Link from 'gatsby-link'
 
@@ -8,7 +9,8 @@ import './contact.css';
 
 const Contact = () => (
     <main>
-    
+        <Helmet title='Contact Us | TNT Cuts' />
+
         <iframe className='contact-map' frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=186+Blaney+Road,+Kittanning,+PA&amp;aq=0&amp;oq=186+blaney&amp;sll=41.117935,-77.604698&amp;sspn=4.294878,9.84375&amp;ie=UTF8&amp;hq=&amp;hnear=186+Blaney+Rd,+Kittanning,+Pennsylvania+16201&amp;ll=40.806928,-79.493964&amp;spn=0.018288,0.038452&amp;t=m&amp;z=14&amp;output=embed" />
     
         <HoursBanner>
