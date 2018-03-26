@@ -88,10 +88,16 @@ p + p {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 26px;
     margin: 0 0 24px;
 }
 
 .page-content {
 	min-height: calc(100vh - 81px);
+}
+
+@media (min-width: 550px) {
+	h2 {
+		font-size: 32px;
+	}
 }

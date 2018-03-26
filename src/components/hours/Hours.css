@@ -29,3 +29,7 @@
     padding: 6px;
     width: 50%;
 }
+
+.hours-row__time {
+    text-align: left;
+}

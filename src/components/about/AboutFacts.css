@@ -1,9 +1,9 @@
 .about-facts {
-    display: flex;
+    display: block;
 }
 
 .about-fact + .about-fact {
-    margin-left: 24px;
+    margin: 24px 0 0;
 }
 
 .about-fact {
@@ -16,4 +16,14 @@
 
 .about-fact__highlight {
     font-size: 64px;
+}
+
+@media (min-width: 550px) {
+    .about-facts {
+        display: flex;
+    }
+    
+    .about-fact + .about-fact {
+        margin: 0 0 0 24px;
+    }
 }

@@ -12,10 +12,21 @@
 }
 
 .product-logo {
-    display: inline-block;
     max-width: 250px;
+    width: 48%;
 }
 
 .product-logo + .product-logo {
-    margin: 0 0 0 48px;
+    margin: 0 0 0 12px;
+}
+
+@media (min-width: 550px) {
+    .product-logo {
+        display: inline-block;
+        max-width: 250px;
+    }
+    
+    .product-logo + .product-logo {
+        margin: 0 0 0 48px;
+    }
 }

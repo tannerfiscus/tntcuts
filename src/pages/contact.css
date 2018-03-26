@@ -15,14 +15,26 @@
 
 .contact-map {
     display: block;
-    height: 500px;
+    height: 300px;
     padding: 92px 0 0;
     width: 100%;
 }
 
+@media (min-width: 600px) {
+    .contact-map {
+        height: 400px;
+    }
+}
+
+@media (min-width: 850px) {
+    .contact-map {
+        height: 500px;
+    }
+}
+
 .contact-intro {
-    display: flex;
-    margin: 0 32px 0 0;
+    display: block;
+    margin: 0;
 }
 
 .contact-intro li {
@@ -30,38 +42,98 @@
     border-radius: 4px;
     align-items: center;
     display: flex;
-    flex: 1 auto;
     flex-wrap: wrap;
-    font-size: 24px;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 300px;
     padding: 18px;
     justify-content: center;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 
 .contact-intro li + li {
-    margin: 0 0 0 32px;
+    margin: 24px auto 0;
 }
 
 .contact-intro .fa {
     color: #87807c;
     display: block;
-    font-size: 64px;
+    font-size: 48px;
     flex: 1 auto;
     padding: 0 0 12px;
     width: 100%;
 }
 
 .contact-intro .fa-phone {
-    font-size: 52px;
+    font-size: 42px;
 }
 
 .contact-intro a, .contact-intro a:visited, .contact-intro a:hover {
     color: #333331;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .contact-intro__city-state {
     display: inline-block;
     white-space: nowrap;
+}
+
+@media (min-width: 600px) {
+    .contact-intro {
+        display: flex;
+        margin: 0 -12px 0 0;
+    }
+    
+    .contact-intro li {
+        flex: 1 auto;
+        font-size: 14px;
+        max-width: 1000px;
+        width: 50%;
+    }
+    
+    .contact-intro li + li {
+        margin: 0 0 0 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-intro {
+        margin: 0;
+    }
+    
+    .contact-intro li {
+        font-size: 20px;
+    }
+    
+    .contact-intro li + li {
+        margin: 0 0 0 32px;
+    }
+    
+    .contact-intro .fa {
+        font-size: 58px;
+    }
+
+    .contact-intro .fa-phone {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 900px) {
+    .contact-intro {
+        margin: 0 32px 0 0;
+    }
+    
+    .contact-intro li {
+        font-size: 24px;
+    }
+    
+    .contact-intro .fa {
+        font-size: 64px;
+    }
+
+    .contact-intro .fa-phone {
+        font-size: 52px;
+    }
 }

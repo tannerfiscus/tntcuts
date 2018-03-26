@@ -49,7 +49,7 @@ class Header extends React.PureComponent {
                     <ContentWrapper padBottom={false} padTop={false}>
                         <div className='header__content'>
                             <h1 className='heading-font'>
-                                <a href='/'>TNT Cuts</a>
+                                <Link to='/'>TNT Cuts</Link>
                             </h1>
                         
                             <div>
@@ -64,10 +64,10 @@ class Header extends React.PureComponent {
                                 <ul className={classnames('header-navigation', {
                                     'header-navigation--visible': this.state.isMenuVisible,
                                 })}>
-                                    <li><Link to='/'>Home</Link></li>
-                                    <li><Link to='/about/'>About Us</Link></li>
-                                    <li><Link to='/products/'>Products</Link></li>
-                                    <li className='last'><Link to='/contact/'>Contact Us</Link></li>
+                                    <li><Link onClick={this.toggleNavigation} to='/'>Home</Link></li>
+                                    <li><Link onClick={this.toggleNavigation} to='/about/'>About Us</Link></li>
+                                    <li><Link onClick={this.toggleNavigation} to='/products/'>Products</Link></li>
+                                    <li className='last'><Link onClick={this.toggleNavigation} to='/contact/'>Contact Us</Link></li>
                                 </ul>
                             </div>
                         </div>

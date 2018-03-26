@@ -6,13 +6,19 @@
     padding: 42px 0 24px;
 }
 
-.about-stylist-content {
-    align-items: center;
-    display: flex;
-}
-
 .about-stylist-content__image {
     border-radius: 4px;
-    margin: 0 24px 0 0;
+    margin: 0 0 24px;
     width: 250px;
+}
+
+@media (min-width: 550px) {
+    .about-stylist-content {
+        align-items: center;
+        display: flex;
+    }
+    
+    .about-stylist-content__image {
+        margin: 0 24px 0 0;
+    }
 }

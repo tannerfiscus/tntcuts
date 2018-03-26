@@ -1,14 +1,9 @@
 .hours-banner-wrapper {
     background: #f1f1e9;
 }
-.hours-banner {
-    align-items: center;
-    display: flex;
-}
 
-.hours-banner__message {
-    flex: 1 auto;
-    padding: 0 24px 0 0;
+.hours-banner {
+    text-align: center;
 }
 
 .hours-banner__message p {
@@ -17,9 +12,29 @@
 }
 
 .hours-banner__timesheet {
-    flex: 0 0 230px;
-    margin: -80px 0 0;
-    position: relative;
-    width: 230px;
-    z-index: 1;
+    margin: 24px auto 0;
+    max-width: 300px;
+}
+
+
+
+@media (min-width: 550px) {
+    .hours-banner {
+        align-items: center;
+        display: flex;
+        text-align: left;
+    }
+    
+    .hours-banner__message {
+        flex: 1 auto;
+        padding: 0 24px 0 0;
+    }
+    
+    .hours-banner__timesheet {
+        flex: 0 0 230px;
+        margin: -80px 0 0;
+        position: relative;
+        width: 230px;
+        z-index: 1;
+    }
 }
