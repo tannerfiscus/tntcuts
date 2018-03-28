@@ -32,6 +32,7 @@
     opacity: 0;
     transform: translateY(4px);
     transition: opacity 0.2s ease, transform 0.2s linear;
+    white-space: nowrap;
 }
 
 .footer-cred-link:hover .footer-cred-link__description {

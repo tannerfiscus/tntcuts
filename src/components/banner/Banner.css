@@ -4,9 +4,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
-    height: 300px;
+    height: 210px;
     justify-content: flex-start;
-    padding: 92px 0 0;
+    margin: 92px 0 0;
     position: relative;
 }
 
@@ -29,6 +29,8 @@
     color: #FFFFFC;
     font-size: 30px;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
     position: relative;
     text-align: left;
     text-shadow: 2px 2px 2px rgb(103, 92, 83);
@@ -42,9 +44,9 @@
 
 @media (min-width: 600px) {
     .banner {
-        height: 400px;
+        height: 310px;
     }
-    
+
     .banner__title {
         font-size: 40px;
     }
@@ -52,10 +54,20 @@
 
 @media (min-width: 850px) {
     .banner {
-        height: 500px;
+        height: 410px;
     }
-    
+
     .banner__title {
         font-size: 58px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .banner {
+        height: 520px;
+    }
+
+    .banner__title {
+        font-size: 64px;
     }
 }
