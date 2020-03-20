@@ -2,7 +2,6 @@ import Helmet from 'react-helmet'
 import React from 'react'
 import Link from 'gatsby-link'
 
-import ContactForm from '../components/contact/ContactForm'
 import ContentWrapper from '../components/content/ContentWrapper'
 import HoursBanner from '../components/hours/HoursBanner'
 import './contact.css';
@@ -32,9 +31,8 @@ const Contact = () => (
         <ContentWrapper>
             <div className='contact-content'>
                 <h2>Is there something that we can help you with?</h2>
-                <p>We truly appreciate your feedback and opinion on any matter. We will do our best to get back to you as promptly as possible.</p>
-                
-                <ContactForm />
+                <p>We truly appreciate your feedback and opinion on any matter.</p>
+                <p>Please contact us by phone at <a href="tel:7245437473">(724) 543-7473</a> to schedule an appointment or provide your feedback.</p>
             </div>
         </ContentWrapper>
     </main>
