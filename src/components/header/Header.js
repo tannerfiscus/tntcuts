@@ -73,7 +73,6 @@ class Header extends React.PureComponent {
                         </div>
                     </ContentWrapper>
                 </section>
-
                 
             </header>
         )

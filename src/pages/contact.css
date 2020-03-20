@@ -9,8 +9,13 @@
 }
 
 .contact-content {
-    padding: 24px 0;
+    padding: 72px 0;
     text-align: center;
+}
+
+.contact-content a {
+    color: #87807c;
+    border-bottom: 1px dashed #87807c;
 }
 
 .contact-map {
