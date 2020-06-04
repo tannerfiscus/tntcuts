@@ -26,9 +26,12 @@ const TemplateWrapper = ({ children }) => (
             <div className="health-notice">
                 <h3><i className="fa fa-info-circle" /> Reopening Information</h3>
                 <br />
-                <p>TNT Cuts will be reopening on <b>Tuesday, June 9, 2020.</b></p>
+                <p>I will be reopening on <b>Tuesday, June 9, 2020.</b></p>
                 <br/>
-                <p>Due to a higher than normal demand, please make sure to call ahead and book an appointment.</p>
+                <p>As there is a lot of catching up to do, please be sure to call ahead and book an appointment.</p>
+                <p>I will try to get back to you all in a timely manner. Please bear with me and be patient as we all get back on track.</p>
+                <p>Can't wait to see you all,</p>
+                <p>Patti Fiscus<br/>TNT Cuts</p>
             </div>
           </ContentWrapper>
         </section>

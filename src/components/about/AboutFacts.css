@@ -9,7 +9,7 @@
 .about-fact {
     border: 1px solid #CCCCCB;
     border-radius: 4px;
-    flex: 1 auto;
+    flex: 1 33.3333%;
     padding: 24px 12px;
     text-align: center;
 }
@@ -18,9 +18,17 @@
     font-size: 64px;
 }
 
+.about-fact__highlight--smaller {
+    font-size: 42px;
+}
+
 @media (min-width: 550px) {
     .about-facts {
         display: flex;
+    }
+
+    .about-fact {
+        padding: 24px;
     }
     
     .about-fact + .about-fact {

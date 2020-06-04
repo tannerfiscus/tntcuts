@@ -105,6 +105,10 @@ h2 {
 	background: #f1f1e9;
 }
 
+.page-health-notice b {
+	font-weight: 700;
+}
+
 .health-notice {
 	background: #FFFFFC;
 	border: 2px solid #675c53;
