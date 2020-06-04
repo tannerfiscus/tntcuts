@@ -6,7 +6,7 @@ const AboutFacts = () => (
     <ul className='about-facts heading-font'>
         <li className='about-fact'>
             <div className='about-fact__highlight'>
-                31
+                36
             </div>
             years of experience
         </li>

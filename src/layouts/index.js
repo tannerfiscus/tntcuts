@@ -24,10 +24,11 @@ const TemplateWrapper = ({ children }) => (
         <section className="page-health-notice">
           <ContentWrapper>
             <div className="health-notice">
-                <h3><i className="fa fa-exclamation-circle" /> Attention Clients / Friends</h3>
-                <br /><br />
-                <p>I am <strong>temporarily closed</strong> due to the big picture. It's more important to be safe & healthy. When I learn more and am able to reopen I will be in contact with you to verify or reschedule your appointment(s). Wash your hands, stay in, be healthy, & pray this will be over soon. This is a difficult time for all of us.</p>
-                <p>Thanks,<br/>Patti<br/>TNT Cuts</p>
+                <h3><i className="fa fa-info-circle" /> Reopening Information</h3>
+                <br />
+                <p>TNT Cuts will be reopening on <b>Tuesday, June 9, 2020.</b></p>
+                <br/>
+                <p>Due to a higher than normal demand, please make sure to call ahead and book an appointment.</p>
             </div>
           </ContentWrapper>
         </section>
